@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#102b46">
+<title>TEACHER VICTOR | Your personal ZIMSEC teacher</title>
+<style>
+:root{--navy:#102b46;--blue:#2367d1;--sky:#eaf2ff;--gold:#f4b942;--ink:#15283b;--muted:#64748b;--paper:#f5f8fc;--white:#fff;--line:#e3eaf2;--green:#16865a;--red:#b42318}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}button,input,select,textarea{font:inherit}button{cursor:pointer;border:0;border-radius:12px;padding:12px 16px;font-weight:700}.primary{background:var(--blue);color:white}.secondary{background:var(--sky);color:var(--navy)}.ghost{background:transparent;color:var(--muted);border:1px solid var(--line)}.danger{background:#fff0ef;color:var(--red)}.small{padding:8px 11px;font-size:13px}.hidden{display:none!important}.muted{color:var(--muted)}.tiny{font-size:12px}.shell{min-height:100vh}.top{background:var(--navy);color:white;padding:14px max(18px,calc((100vw - 1180px)/2));display:flex;align-items:center;justify-content:space-between;gap:15px}.brand{display:flex;align-items:center;gap:11px;font-weight:900;letter-spacing:.2px}.logo{width:42px;height:42px;border-radius:13px;background:var(--gold);color:var(--navy);display:grid;place-items:center;font-weight:1000;font-size:20px}.top small{display:block;color:#c8d7e8;font-weight:500}.top-actions{display:flex;gap:8px;align-items:center}.wrap{max-width:1180px;margin:auto;padding:24px 18px 50px}.hero{background:linear-gradient(120deg,#102b46,#194a78);color:white;border-radius:24px;padding:30px;display:grid;grid-template-columns:1.4fr .8fr;gap:20px;overflow:hidden}.hero h1{font-size:clamp(30px,5vw,48px);line-height:1.08;margin:10px 0 12px}.hero p{color:#d7e5f4;max-width:620px}.hero-art{display:grid;place-items:center;min-height:180px}.hero-card{background:#ffffff14;border:1px solid #ffffff32;border-radius:20px;padding:20px;width:min(100%,280px);transform:rotate(2deg)}.hero-card strong{font-size:40px;display:block;color:var(--gold)}.tag{display:inline-flex;background:#ffffff1c;border:1px solid #ffffff30;padding:6px 10px;border-radius:999px;font-size:12px;font-weight:800;letter-spacing:.5px}.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px;margin-top:18px}.card{background:white;border:1px solid var(--line);border-radius:18px;padding:20px;box-shadow:0 5px 18px #102b4608}.span-12{grid-column:span 12}.span-8{grid-column:span 8}.span-7{grid-column:span 7}.span-6{grid-column:span 6}.span-5{grid-column:span 5}.span-4{grid-column:span 4}.section-title{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px}.section-title h2,.section-title h3{margin:0}.section-title h2{font-size:21px}.section-title h3{font-size:17px}.stat{font-size:28px;font-weight:900;color:var(--navy)}.stat-label{font-size:13px;color:var(--muted)}.stat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.stat-box{background:#f7faff;border:1px solid var(--line);border-radius:14px;padding:14px}.tabs{display:flex;gap:8px;overflow:auto;padding:4px 0 12px}.tab{white-space:nowrap;background:white;color:var(--muted);border:1px solid var(--line)}.tab.active{background:var(--navy);color:white;border-color:var(--navy)}label{display:block;font-size:13px;font-weight:800;margin:12px 0 6px}input,select,textarea{width:100%;border:1px solid #ccd7e4;border-radius:11px;padding:12px;background:white;color:var(--ink);outline:none}input:focus,select:focus,textarea:focus{border-color:var(--blue);box-shadow:0 0 0 3px #2367d120}textarea{min-height:110px;resize:vertical}.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.row>*{flex:1}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.pill{border-radius:999px;padding:5px 9px;font-size:12px;font-weight:800;background:#eaf7f1;color:var(--green)}.pill.warn{background:#fff4dd;color:#946200}.message{padding:12px 14px;border-radius:12px;background:#f1f6ff;margin:9px 0;white-space:pre-wrap}.message.ai{background:#f5f8fc;border:1px solid var(--line)}.message.user{background:#eaf2ff;margin-left:8%}.notice{padding:13px 14px;background:#fff8e8;border:1px solid #f1dfb4;border-radius:13px;color:#704d00;font-size:13px}.success{background:#ecfdf3;border:1px solid #b7ebcb;color:#12643d}.error{background:#fff0ef;border:1px solid #ffd0cb;color:#9f1d16}.auth{max-width:480px;margin:40px auto}.auth .card{padding:26px}.subject-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}.subject{border:1px solid var(--line);border-radius:12px;padding:12px;text-align:left;background:#fff;color:var(--ink)}.subject:hover{border-color:var(--blue)}.paper{background:#fffdf7;border:1px solid #eee4ca;border-radius:14px;padding:18px;white-space:pre-wrap;line-height:1.7}.footer{text-align:center;color:var(--muted);font-size:12px;padding:30px 10px}.progress{height:9px;border-radius:99px;background:#e8edf4;overflow:hidden}.progress>i{display:block;height:100%;background:var(--blue);width:0}.list{display:grid;gap:9px}.list-item{padding:12px;border:1px solid var(--line);border-radius:12px;display:flex;justify-content:space-between;gap:10px}.chatlog{max-height:440px;overflow:auto;display:flex;flex-direction:column;gap:7px;padding:5px}.paybox{background:#f6f9ff;border:1px dashed #9eb8dc;border-radius:14px;padding:16px}.hidden-print{display:block}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding:23px}.hero-art{display:none}.span-8,.span-7,.span-6,.span-5,.span-4{grid-column:span 12}.stat-grid{grid-template-columns:1fr 1fr}.subject-grid{grid-template-columns:1fr 1fr}.top{padding:12px 15px}.top-actions .muted{display:none}.wrap{padding:17px 13px 35px}}
+</style>
+</head>
+<body>
+<div class="shell">
+<header class="top">
+ <div class="brand"><div class="logo">V</div><div>TEACHER VICTOR<small>Your personal ZIMSEC learning teacher</small></div></div>
+ <div class="top-actions"><span id="userLabel" class="muted tiny"></span><button id="logoutBtn" class="ghost small hidden">Sign out</button></div>
+</header>
+<main class="wrap">
+<section id="authView" class="auth">
+ <div class="hero" style="display:block;padding:25px;margin-bottom:16px"><span class="tag">ZIMSEC O-LEVEL + A-LEVEL</span><h1>Learn with confidence.</h1><p>Ask questions, practise, complete homework and prepare for exams with a patient AI teacher.</p></div>
+ <div class="card">
+  <div class="section-title"><h2 id="authTitle">Welcome back</h2><span class="pill">30 days free</span></div>
+  <div id="authError" class="notice error hidden"></div>
+  <form id="authForm">
+   <div id="nameField" class="hidden"><label for="studentName">Your name</label><input id="studentName" maxlength="60" autocomplete="name" placeholder="Enter your name"></div>
+   <label for="email">Email address</label><input id="email" type="email" required autocomplete="email" placeholder="you@example.com">
+   <label for="password">Password</label><input id="password" type="password" required minlength="8" autocomplete="current-password" placeholder="At least 8 characters">
+   <button id="authSubmit" class="primary" style="width:100%;margin-top:17px">Sign in</button>
+  </form>
+  <p class="tiny muted" id="authSwitch">New student? <a href="#" id="toggleAuth">Create an account</a></p>
+  <p class="tiny muted">Students under 18 should ask a parent or guardian to help with account and payment decisions.</p>
+ </div>
+</section>
+<section id="appView" class="hidden">
+ <div class="hero">
+  <div><span class="tag">YOUR DIGITAL CLASSROOM</span><h1 id="welcome">Welcome to class.</h1><p>Choose a subject, ask Teacher Victor a question, practise what you have learned and track your progress.</p><div class="row" style="max-width:450px"><div><label for="levelSelect" style="color:#d7e5f4">Your level</label><select id="levelSelect"><option value="">Choose your level</option><option>Form 1</option><option>Form 2</option><option>Form 3</option><option>Form 4</option><option>Lower 6</option><option>Upper 6</option></select></div><div style="align-self:end"><button id="saveProfile" class="primary">Save level</button></div></div></div>
+  <div class="hero-art"><div class="hero-card"><span class="tag">YOUR LEARNING JOURNEY</span><strong>30</strong><b>days of free learning</b><p class="tiny">Simple explanations. Practice. Progress.</p></div></div>
+ </div>
+ <div class="grid">
+  <div class="card span-12">
+   <div class="section-title"><h2>Your learning overview</h2><span id="trialPill" class="pill warn">Free trial</span></div>
+   <div class="stat-grid">
+    <div class="stat-box"><div class="stat" id="trialDays">30 days</div><div class="stat-label">Trial time remaining</div></div>
+    <div class="stat-box"><div class="stat" id="completedCount">0</div><div class="stat-label">Marked exercises and tests</div></div>
+    <div class="stat-box"><div class="stat" id="averageScore">—</div><div class="stat-label">Average mark</div></div>
+   </div>
+   <p id="trialText" class="tiny muted" style="margin-bottom:0">Your free month starts when your student account is created.</p>
+  </div>
+  <div class="span-12 tabs">
+   <button class="tab active" data-tab="tutor">AI Teacher</button><button class="tab" data-tab="practice">Exercises & homework</button><button class="tab" data-tab="mock">Mock tests</button><button class="tab" data-tab="progress">My progress</button><button class="tab" data-tab="billing">Membership</button>
+  </div>
+  <section id="tab-tutor" class="card span-8">
+   <div class="section-title"><h2>Ask Teacher Victor</h2><span class="pill">AI tutor</span></div>
+   <p class="muted tiny">Ask for a lesson, an explanation, a worked example or help understanding a difficult topic.</p>
+   <div id="chatLog" class="chatlog"><div class="message ai">Hello! I am Teacher Victor. Choose your level, then tell me what you are learning. I will explain it step by step in simple English.</div></div>
+   <form id="chatForm"><label for="chatInput">Your question</label><textarea id="chatInput" maxlength="2000" placeholder="For example: Explain photosynthesis in simple steps..." required></textarea><div class="actions"><button class="primary" type="submit">Ask Teacher Victor</button><button class="ghost" type="button" id="clearChat">Clear chat</button></div></form>
+   <div id="chatStatus" class="tiny muted"></div>
+  </section>
+  <aside class="card span-4">
+   <h3>Quick study tips</h3><div class="list">
+    <div class="list-item"><span>1. Study one topic at a time</span><b>✓</b></div>
+    <div class="list-item"><span>2. Try questions without notes</span><b>✓</b></div>
+    <div class="list-item"><span>3. Read your marking feedback</span><b>✓</b></div>
+   </div>
+   <div class="notice" style="margin-top:14px">Teacher Victor helps you learn. Always check important exam dates and official instructions with your school.</div>
+  </aside>
+  <section id="tab-practice" class="card span-12 hidden">
+   <div class="section-title"><h2>Exercises and homework</h2><span class="pill">Practice makes progress</span></div>
+   <p class="muted">Choose a subject and topic. Teacher Victor will prepare questions for you to answer and submit for marking.</p>
+   <div class="row"><div><label for="assignmentSubject">Subject</label><input id="assignmentSubject" list="subjects" placeholder="e.g. Mathematics"></div><div><label for="assignmentTopic">Topic</label><input id="assignmentTopic" placeholder="e.g. Quadratic equations"></div></div>
+   <datalist id="subjects"><option>Mathematics</option><option>English Language</option><option>Shona</option><option>Biology</option><option>Physics</option><option>Chemistry</option><option>Geography</option><option>History</option><option>Combined Science</option><option>Commerce</option><option>Accounting</option><option>Computer Science</option><option>Economics</option><option>Business Studies</option><option>Agriculture</option><option>Literature in English</option><option>Pure Mathematics</option><option>Applied Mathematics</option><option>Statistics</option></datalist>
+   <div class="actions"><button id="makeAssignment" class="primary">Create homework</button><button id="makeRevision" class="secondary">Make revision notes</button></div>
+   <div id="practiceResult" class="hidden" style="margin-top:18px"><div class="section-title"><h3>Your paper</h3><button id="cancelPaper" class="ghost small">Close paper</button></div><div id="practicePaper" class="paper"></div><label for="practiceAnswers">Write your answers here</label><textarea id="practiceAnswers" placeholder="Number your answers clearly: 1., 2., 3. ..."></textarea><button id="submitPractice" class="primary" style="margin-top:10px">Submit for marking</button></div>
+   <div id="practiceFeedback" class="message hidden"></div>
+  </section>
+  <section id="tab-mock" class="card span-12 hidden">
+   <div class="section-title"><h2>Mock examinations</h2><span class="pill">Exam preparation</span></div>
+   <p class="muted">Create a timed-style practice paper for your level. Answer it and receive marks with clear feedback.</p>
+   <div class="row"><div><label for="mockSubject">Subject</label><input id="mockSubject" list="subjects" placeholder="e.g. Biology"></div><div><label for="mockTopic">Topic or paper section</label><input id="mockTopic" placeholder="e.g. Cell structure"></div></div>
+   <button id="makeMock" class="primary" style="margin-top:12px">Create mock test</button>
+   <div id="mockResult" class="hidden" style="margin-top:18px"><div class="section-title"><h3>Mock test paper</h3><span class="pill warn">Practice paper</span></div><div id="mockPaper" class="paper"></div><label for="mockAnswers">Your answers</label><textarea id="mockAnswers" placeholder="Number your answers clearly..."></textarea><button id="submitMock" class="primary" style="margin-top:10px">Submit mock test</button></div>
+   <div id="mockFeedback" class="message hidden"></div>
+  </section>
+  <section id="tab-progress" class="card span-12 hidden">
+   <div class="section-title"><h2>My progress</h2><button id="refreshProgress" class="secondary small">Refresh results</button></div>
+   <div id="progressList" class="list"><p class="muted">Your marked work will appear here.</p></div>
+   <button id="makeReport" class="primary" style="margin-top:15px">Create my performance report</button><div id="reportResult" class="message hidden"></div>
+  </section>
+  <section id="tab-billing" class="card span-12 hidden">
+   <div class="section-title"><h2>Membership and payments</h2><span class="pill warn">$5 / month</span></div>
+   <div class="paybox"><h3>One month free. Then $5 per month.</h3><p>After your 30-day free trial, continue learning with the monthly Teacher Victor membership.</p><p><b>EcoCash number:</b> <span id="payNumber">0786610390</span></p><p class="tiny muted">A parent or guardian should help younger students with payments. Never share your EcoCash PIN or password.</p><button id="buyMonthly" class="primary">Get monthly membership — $5</button></div>
+   <div id="paymentStep" class="hidden" style="margin-top:18px">
+    <h3>Payment instructions</h3><div id="orderDetails" class="notice"></div>
+    <p>After the payment is made, enter the transaction ID from the EcoCash confirmation message. The membership will only activate after payment is checked.</p>
+    <form id="paymentForm"><label for="txnId">EcoCash transaction ID</label><input id="txnId" required maxlength="30" placeholder="Enter transaction ID"><label for="payerPhone">Phone number used to pay (optional)</label><input id="payerPhone" maxlength="16" placeholder="07..."><button class="primary" type="submit" style="margin-top:12px">Submit payment for checking</button></form>
+   </div>
+   <div id="paymentStatus" class="message hidden"></div>
+  </section>
+ </div>
+</section>
+<div class="footer">TEACHER VICTOR · ZIMSEC O-Level and A-Level learning · Simple English for every student</div>
+</main>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+const SUPABASE_URL = "https://hvtqtargqpbselehgvpx.supabase.co";
+const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_iDLy94MC25EwUa722LUYsA_WwSr41XA";
+const { createClient } = supabase;
+const db = createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY);
+let signingUp=false, profile=null, currentPaper=null, currentPaperKind=null, currentOrder=null;
+const $=id=>document.getElementById(id);
+const show=(el,on=true)=>$(el).classList.toggle("hidden",!on);
+const safe=(s)=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+function notice(id,msg,kind=""){const el=$(id);el.textContent=msg;el.className="message "+kind;}
+function switchAuth(){signingUp=!signingUp;$("authTitle").textContent=signingUp?"Create your student account":"Welcome back";show("nameField",signingUp);$("authSubmit").textContent=signingUp?"Create account":"Sign in";$("authSwitch").innerHTML=signingUp?'Already registered? <a href="#" id="toggleAuth">Sign in</a>':'New student? <a href="#" id="toggleAuth">Create an account</a>'; $("toggleAuth").onclick=e=>{e.preventDefault();switchAuth()};$("password").autocomplete=signingUp?"new-password":"current-password";}
+$("toggleAuth").onclick=e=>{e.preventDefault();switchAuth()};
+$("authForm").addEventListener("submit",async e=>{e.preventDefault();$("authError").classList.add("hidden");$("authSubmit").disabled=true;try{let email=$("email").value.trim(),password=$("password").value;let r;if(signingUp){r=await db.auth.signUp({email,password,options:{data:{name:$("studentName").value.trim()}}});if(r.error)throw r.error;if(!r.data.session){$("authError").textContent="Account created. Check your email for the confirmation link, then sign in.";show("authError");return;}}else{r=await db.auth.signInWithPassword({email,password});if(r.error)throw r.error;}await loadApp();}catch(err){$("authError").textContent=err.message||"Could not sign in. Please try again.";show("authError");}finally{$("authSubmit").disabled=false;}});
+async function api(action,body={}){const {data:{session}}=await db.auth.getSession();if(!session)throw new Error("Please sign in again.");const r=await fetch(SUPABASE_URL+"/functions/v1/web-api",{method:"POST",headers:{"Content-Type":"application/json","apikey":SUPABASE_PUBLISHABLE_KEY,"Authorization":"Bearer "+session.access_token},body:JSON.stringify({action,...body})});let j=await r.json();if(!r.ok||j.error)throw new Error(j.error||"Request failed");return j;}
+function addMessage(role,text){const div=document.createElement("div");div.className="message "+(role==="user"?"user":"ai");div.textContent=text;$("chatLog").appendChild(div);$("chatLog").scrollTop=$("chatLog").scrollHeight;}
+async function loadApp(){show("authView",false);show("appView",true);show("logoutBtn",true);try{profile=await api("me");$("userLabel").textContent=profile.profile?.email||"";$("welcome").textContent="Welcome"+(profile.profile?.name?" "+profile.profile.name:"")+". Let's learn.";if(profile.profile?.level)$("levelSelect").value=profile.profile.level;const end=profile.trial_ends_at?new Date(profile.trial_ends_at):null;const days=end?Math.max(0,Math.ceil((end-Date.now())/86400000)):30;$("trialDays").textContent=profile.trial_active?days+" days":(profile.premium?"Active":"Ended");$("trialPill").textContent=profile.trial_active?"30-day free trial":profile.premium?"Membership active":"Trial ended";$("trialPill").className="pill "+(profile.trial_active||profile.premium?"":"warn");$("trialText").textContent=profile.trial_active?"Your free learning period ends "+end.toLocaleDateString()+". All learning features are included during your trial.":profile.premium?"Your monthly membership is active.":"Your free trial has ended. Choose the $5 monthly membership to continue.";await loadProgress();}catch(e){console.error(e);notice("chatStatus",e.message,"error");}}
+$("saveProfile").onclick=async()=>{try{if(!$("levelSelect").value)throw new Error("Choose your level first.");profile=await api("set_profile",{level:$("levelSelect").value});notice("chatStatus","Your level has been saved.","success");}catch(e){notice("chatStatus",e.message,"error");}};
+$("logoutBtn").onclick=async()=>{await db.auth.signOut();profile=null;show("appView",false);show("authView",true);show("logoutBtn",false);$("userLabel").textContent="";};
+document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{document.querySelectorAll(".tab").forEach(x=>x.classList.toggle("active",x===b));["tutor","practice","mock","progress","billing"].forEach(t=>show("tab-"+t,t===b.dataset.tab));if(b.dataset.tab==="progress")loadProgress();});
+$("chatForm").onsubmit=async e=>{e.preventDefault();const text=$("chatInput").value.trim();if(!text)return;if(!profile?.profile?.level){notice("chatStatus","Please choose and save your level first.","error");return;}addMessage("user",text);$("chatInput").value="";$("chatStatus").textContent="Teacher Victor is preparing an explanation...";try{const r=await api("chat",{text});if(r.paywall){addMessage("assistant",r.message);document.querySelector('[data-tab="billing"]').click();}else{addMessage("assistant",r.answer+(r.note?"\n\n"+r.note:""));}$("chatStatus").textContent="";}catch(e){addMessage("assistant",e.message);$("chatStatus").textContent="";}};
+$("clearChat").onclick=()=>{$("chatLog").innerHTML="";addMessage("assistant","Chat cleared. What would you like to learn today?");};
+async function generate(kind,subjectId,topicId,resultId,paperId){try{if(!profile?.profile?.level)throw new Error("Choose and save your level first.");const subject=$(subjectId).value.trim(),topic=$(topicId).value.trim();if(!subject||!topic)throw new Error("Enter a subject and topic first.");$(resultId).textContent="Preparing your questions...";show(resultId,true);const r=await api("generate",{kind,topic:subject+" — "+topic});if(r.needs_payment)throw new Error("This feature needs a paid learning pack. See Membership.");currentPaperKind=kind;currentPaper=r.text;$(paperId).textContent=r.text;show(kind==="mock"?"mockResult":"practiceResult",true);notice(kind==="mock"?"mockFeedback":"practiceFeedback","");}catch(e){notice(kind==="mock"?"mockFeedback":"practiceFeedback",e.message,"error");}}
+$("makeAssignment").onclick=()=>generate("assignment","assignmentSubject","assignmentTopic","practiceFeedback","practicePaper");
+$("makeRevision").onclick=async()=>{try{const subject=$("assignmentSubject").value.trim(),topic=$("assignmentTopic").value.trim();if(!subject||!topic)throw new Error("Enter a subject and topic first.");const r=await api("generate",{kind:"revision",topic:subject+" — "+topic});notice("practiceFeedback",r.text,"");show("practiceFeedback",true);}catch(e){notice("practiceFeedback",e.message,"error");show("practiceFeedback",true);}};
+$("makeMock").onclick=()=>generate("mock","mockSubject","mockTopic","mockFeedback","mockPaper");
+$("cancelPaper").onclick=async()=>{try{await api("cancel_paper");currentPaper=null;show("practiceResult",false);show("mockResult",false);}catch(e){notice("practiceFeedback",e.message,"error");}};
+async function submitAnswers(kind,answersId,feedbackId){try{const answers=$(answersId).value.trim();if(!answers)throw new Error("Write your answers first.");const r=await api("mark",{answers});notice(feedbackId,`Your mark: ${r.score}/${r.out_of} (${r.percent}%)\n\n${r.feedback}`,"success");show(feedbackId,true);show(kind==="mock"?"mockResult":"practiceResult",false);$(answersId).value="";await loadProgress();}catch(e){notice(feedbackId,e.message,"error");show(feedbackId,true);}}
+$("submitPractice").onclick=()=>submitAnswers("assignment","practiceAnswers","practiceFeedback");
+$("submitMock").onclick=()=>submitAnswers("mock","mockAnswers","mockFeedback");
+async function loadProgress(){try{const r=await api("me");profile=r;const p=await api("progress");const marked=(p.activities||[]).filter(x=>x.out_of);$("completedCount").textContent=p.completed||0;$("averageScore").textContent=p.average===null?"—":p.average+"%";$("progressList").innerHTML=marked.length?marked.map(x=>`<div class="list-item"><div><b>${safe(x.subject||"Practice")}</b><div class="tiny muted">${safe(x.kind)} · ${new Date(x.at).toLocaleDateString()}</div></div><b>${Number(x.score)}/${Number(x.out_of)} (${Math.round(Number(x.score)/Number(x.out_of)*100)}%)</b></div>`).join(""):'<p class="muted">No marked work yet. Complete an exercise or mock test to see your progress.</p>';}catch(e){$("progressList").textContent=e.message;}}
+$("refreshProgress").onclick=loadProgress;
+$("makeReport").onclick=async()=>{try{const r=await api("report");if(r.needs_payment)throw new Error("A performance report requires membership or a report pack.");notice("reportResult",r.text,"success");}catch(e){notice("reportResult",e.message,"error");}show("reportResult",true);};
+$("buyMonthly").onclick=async()=>{try{const r=await api("order",{code:"premium_monthly",units:1});currentOrder=r; $("orderDetails").textContent=`Order reference: ${r.reference}\nAmount: ${r.currency} ${Number(r.amount).toFixed(2)}\nSend payment to EcoCash: ${r.pay_to}${r.account_name?"\nAccount name: "+r.account_name:""}\nOrder expires: ${new Date(r.expires_at).toLocaleString()}`;show("paymentStep",true);notice("paymentStatus","Order created. Follow the instructions above.","success");show("paymentStatus",true);}catch(e){notice("paymentStatus",e.message,"error");show("paymentStatus",true);}};
+$("paymentForm").onsubmit=async e=>{e.preventDefault();if(!currentOrder) return;try{await api("submit_payment",{order_id:currentOrder.id,txn:$("txnId").value.trim(),msisdn:$("payerPhone").value.trim()});notice("paymentStatus","Payment details submitted. Your membership will activate after verification. Keep your EcoCash confirmation message.","success");show("paymentStatus",true);$("paymentForm").reset();}catch(e){notice("paymentStatus",e.message,"error");show("paymentStatus",true);}};
+db.auth.getSession().then(({data:{session}})=>{if(session)loadApp();});
+db.auth.onAuthStateChange((event,session)=>{if(event==="SIGNED_OUT"){show("appView",false);show("authView",true);show("logoutBtn",false);}else if(event==="SIGNED_IN"&&!profile)loadApp();});
+</script>
+</body>
+</html>
